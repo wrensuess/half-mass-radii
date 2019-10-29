@@ -36,6 +36,13 @@ sns.set_style({"xtick.direction":u'in', "ytick.direction":u'in', "lines.linewidt
 M/L! Want to load in all of the work we've already done as well as the survey
 data we'll need to run this file. '''
 
+# this program should be called command line as "python fit_method2.py group"
+# where "group" is the name of the param file & savefile used in measure_ML.py
+# if no group is listed, exit
+if len(sys.argv) < 2:
+	sys.exit('Please list the group as a command-line argument')
+group = sys.argv[1]
+
 # use function in photFuncs.py to parse in the input file and check to make sure
 # that all the paths actually exist.
 survey, IDs, zs, filterResPath, translatePath, galfitPath, catalogPath, images, \
