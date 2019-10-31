@@ -12,6 +12,8 @@ Code for calculating the half-mass radii of galaxies used in [Suess+19a](https:/
 * does Monte Carlo simulations to get error bars on the mass and M/L in each annulus
 * saves output as a numpy savefile 
 
+Many of the functions used in this script are stored in `photFuncs.py`, both for readability and so they can be referenced by other files.
+
 This code requires the following packages: numpy, math, scipy, os, itertools, sys, subprocess, glob, matplotlib, seaborn, time, astropy, photutils. 
 This code also requires that you have downloaded the 3D-HST data set (both catalogs and imaging).
 Finally, it requires that you have a working FAST installation (and thus an IDL license) as well as a working EAZY installation.
