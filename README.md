@@ -70,3 +70,6 @@ This code is run command-line with the same syntax as `fit_method1.py`.
 
 ## Citation & Contact
 If you use any pieces of the above code, please cite [Suess+19a](https://arxiv.org/pdf/1904.10992.pdf). Please feel free to email suess (at) berkeley (dot) edu with any questions.
+
+## Future Updates
+Code to replicate the plots in Suess+19a and Suess+19b is forthcoming. Available by request via email.
